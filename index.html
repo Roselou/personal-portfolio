@@ -2,6 +2,11 @@
 <html>
 <head>
   <title>Rose Lou</title>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
   <!-- meta -->
   <meta charset="utf-8" />
   <meta name="description" content="Personal Site">
@@ -10,14 +15,17 @@
 
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <!-- styles -->
+
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
- <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  <link rel="icon" type="image/png" href="assets/imgs/logo_symbol.png">
 </head>
 <body>
   <div id="page-wrapper">
@@ -28,43 +36,32 @@
   </div>
 
     <h1>SPACETIME DESIGNS</h1> 
-     <nav> 
-    <ul> 
-      <li><a href = "#">About Me</a></li>
-      <li><a href = "#">Portfolio</a></li>
-      <li><a href = "#">Contact Me</a></li>
-    </ul>
-  </nav>
+       <div class="container">
+         <div class="row">
+             <div class="col-4"> <a href = "#about"> About Me </a> </div>
+             <div class="col-4"> <a href = "#portfolio"> Portfolio </a> </div>
+             <div class="col-4"> <a href = "#contact"> Contact Me </a> </div>
+         </div>
+      </div>
+
+  <a id="about">About</a>
+  <div> this is my carousel</div>
+  <a id="portfolio">Portfolio</a>
+  <a id="about">Contact Me</a>
+
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <footer> 
-  <h3> Contact Information</h3>
-  <div class = "infopt1">
-  <p> 781 | 572 | 1456</p>
-  <a href = "elizabethroselou@gmail.com"> <p> elizabethroselou@gmail.com </p></a>
-</div>
-  <div class = "infopt2">
-  <p> Connect with me on <a href = "https://www.linkedin.com/in/elizabethroselou/"> LinkedIn</a></p>
-  <p> Visit my personal <a href = "https://github.com/Roselou/roselou.github.io">GitHub page</a></p>
+  <div class = "container">
+    <h3> Contact Information</h3>
+    <div class = "row">
+    <div class = "col-6"><p> 781 | 572 | 1456</p>
+    <a href = "elizabethroselou@gmail.com"> <p> elizabethroselou@gmail.com </p></a>
+  </div>
+  <div class = "col-6">
+    <p> Connect with me on <a href = "https://www.linkedin.com/in/elizabethroselou/"> LinkedIn</a></p>
+    <p> Visit my personal <a href = "https://github.com/Roselou/roselou.github.io">GitHub page</a></p>
+  </div>
+  </div>
 </div>
 </footer>
 </body>
