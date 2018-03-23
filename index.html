@@ -19,7 +19,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200, 300, 400, 500, 600" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
     <!-- scripts -->
@@ -37,57 +37,55 @@
   <div id="page-wrapper">
   </div>
   <div id = "profilepic">
-    <img src = "assets/imgs/profilepic2.png">
+    <img id = "profilepic" src = "assets/imgs/profilepic2.png">
   </div>
 
     <h1>SPACETIME DESIGNS</h1> 
        <div class="container">
          <div class="row">
-             <div class="col-4"> <a href = "#about"> About</a> </div>
-             <div class="col-4"> <a href = "#portfolio"> Portfolio </a> </div>
-             <div class="col-4"> <a href = "#contact"> Contact Me </a> </div>
+             <div class="col-4"> <a href = "#about"> <div class = "navbutton">About</div></a> </div>
+             <div class="col-4"> <a href = "#portfolio"> <div class = "navbutton">Portfolio</div> </a> </div>
+             <div class="col-4"> <a href = "#contact"> <div class = "navbutton"> Contact Me</div> </a> </div>
          </div>
       </div>
 
   <a id="about">About</a>
    <div> 
-      <p class = "about-text"> Elizabeth Rose Lou is the sole proprietor of SPACETIME DESIGNS, a San Francisco-based full stack web development firm.  Specializing in HTML5, CSS3, JavaScript and JQuery, the goal of SPACETIME DESIGNS is to deliver a highly polished product connected by art, technology, and good design.
+      <p class = "about-text"> Elizabeth Rose Lou is the sole proprietor of <span class = 'spacetime'> SPACETIME DESIGNS</span>, a San Francisco-based full stack web development firm.  Specializing in HTML5, CSS3, JavaScript and JQuery, the goal of <span class = 'spacetime'> SPACETIME DESIGNS </span> is to deliver a highly polished final product connected by art, technology, and good design.
       </p>
   </div>
   
   <a id="portfolio">Portfolio</a>
-   <div id="carouselExampleIndicators" class="carousel slide active" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner active">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="imgs/project-0.png" alt="Racing Game: Can You Beat The Speed Of Light?">
+     <div id="carouselExampleIndicators" class="carousel slide active" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+    <div class="carousel-inner active">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/imgs/project-0.png" alt="Racing Game: Can You Beat The Speed Of Light?">
+      </div>
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/imgs/tic-tac-toe.png" alt="Board Game: Tic-Tac-Toe">
+      </div>
     </div>
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="imgs/tic-tac-toe.png" alt="Board Game: Tic-Tac-Toe">
-    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-</div>
 <footer> 
   <div class = "container"><a id="contact"></a>
     <h3> Contact Information</h3>
     <div class = "row">
-    <div class = "col-6"><p> 781 | 572 | 1456</p>
+    <div class = "col-6" id = 'left-info'><p id = 'closer'> 781 | 572 | 1456</p>
     <a href = "elizabethroselou@gmail.com"> <p> elizabethroselou@gmail.com </p></a>
   </div>
-  <div class = "col-6">
+  <div class = "col-6" id = "right-info">
     <p> Connect with me on <a href = "https://www.linkedin.com/in/elizabethroselou/"> LinkedIn</a></p>
     <p> Visit my personal <a href = "https://github.com/Roselou/roselou.github.io">GitHub page</a></p>
   </div>
