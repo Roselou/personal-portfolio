@@ -2,35 +2,40 @@
 <html>
 <head>
   <title>Rose Lou</title>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  
-  <!-- meta -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
-  <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- meta -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Personal Site">
+    <meta name="author" content="GA Student">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
-  <!-- styles -->
+    <!-- mobile -->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
- <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/logo_symbol.png">
+    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+    <!-- scripts -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/imgs/logo_symbol.png">
+
 </head>
 <body>
   <div id="page-wrapper">
   </div>
- 
   <div id = "profilepic">
     <img src = "assets/imgs/profilepic2.png">
   </div>
@@ -38,20 +43,45 @@
     <h1>SPACETIME DESIGNS</h1> 
        <div class="container">
          <div class="row">
-             <div class="col-4"> <a href = "#about"> About Me </a> </div>
+             <div class="col-4"> <a href = "#about"> About</a> </div>
              <div class="col-4"> <a href = "#portfolio"> Portfolio </a> </div>
              <div class="col-4"> <a href = "#contact"> Contact Me </a> </div>
          </div>
       </div>
 
   <a id="about">About</a>
-  <div> this is my carousel</div>
+   <div> 
+      <p class = "about-text"> Elizabeth Rose Lou is the sole proprietor of SPACETIME DESIGNS, a San Francisco-based full stack web development firm.  Specializing in HTML5, CSS3, JavaScript and JQuery, the goal of SPACETIME DESIGNS is to deliver a highly polished product connected by art, technology, and good design.
+      </p>
+  </div>
+  
   <a id="portfolio">Portfolio</a>
-  <a id="about">Contact Me</a>
+   <div id="carouselExampleIndicators" class="carousel slide active" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner active">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="imgs/project-0.png" alt="Racing Game: Can You Beat The Speed Of Light?">
+    </div>
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="imgs/tic-tac-toe.png" alt="Board Game: Tic-Tac-Toe">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 </div>
 <footer> 
-  <div class = "container">
+  <div class = "container"><a id="contact"></a>
     <h3> Contact Information</h3>
     <div class = "row">
     <div class = "col-6"><p> 781 | 572 | 1456</p>
