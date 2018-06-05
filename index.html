@@ -22,12 +22,16 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200, 300, 400, 500, 600" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
+    <!-- FULLPAGE.JS -->
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+
     <!-- scripts -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="assets/imgs/logo_symbol.png">
@@ -41,8 +45,8 @@
   </div>
 
     <h1>SPACETIME DESIGNS</h1> 
-       <div class="container">
-         <div class="row">
+       <div class="container ">
+         <div class="row navbar">
              <div class="col-4"> <a href = "#about"> <div class = "navbutton">About</div></a> </div>
              <div class="col-4"> <a href = "#portfolio"> <div class = "navbutton">Portfolio</div> </a> </div>
              <div class="col-4"> <a href = "#contact"> <div class = "navbutton"> Contact Me</div> </a> </div>
@@ -55,29 +59,13 @@
       </p>
   </div>
   
-  <a id="portfolio">Portfolio</a>
-     <div id="carouselExampleIndicators" class="carousel slide active" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-    <div class="carousel-inner active">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="assets/imgs/project-0.png" alt="Racing Game: Can You Beat The Speed Of Light?">
+  <a id="fullpage">Portfolio</a>
+     <div>
+        <img src="assets/imgs/project-0.png" alt="Racing Game: Can You Beat The Speed Of Light?">
       </div>
       <div class="carousel-item active">
         <img class="d-block w-100" src="assets/imgs/tic-tac-toe.png" alt="Board Game: Tic-Tac-Toe">
       </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 <footer> 
   <div class = "container"><a id="contact"></a>
     <h3> Contact Information</h3>

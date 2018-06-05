@@ -19,7 +19,7 @@ h1:hover {
   color: #FFDC38;
 }
 .navbutton{
-  background-color: #A1A1A1;
+  margin: auto;
   border-radius: 7px;
   width: 125px;
   height: 30px;
@@ -109,12 +109,14 @@ footer {
 
 }
 
-
+#carouselExampleIndicators {
+    margin-left: 100px;
+}
 .active {
   margin-top: 5px;
   width: 600px;
   height: 400px;
-  margin-left: 100px;
+
 }
 
 .col-6 {
