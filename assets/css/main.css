@@ -1,12 +1,14 @@
 body {
-	background-color: #808080;
+	background-color: #1d1c1c;
   margin-top: 50px;
 
 }
 
 h1 {
   font-family: 'Quicksand', sans-serif;
-  color: #FFFFFF;
+  background: -webkit-linear-gradient(200deg, #8421e0 10%, #af1515d8 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-kerning: 20px;
   font-size: 50px;
   text-align: center;
@@ -15,14 +17,18 @@ h1 {
   margin-bottom: 50px;
 }
 
-h1:hover {
-  color: #FFDC38;
-}
+
 .navbutton{
   margin: auto;
   border-radius: 7px;
   width: 125px;
-  height: 30px;
+  height: 30px
+}
+
+.navbutton:hover {
+  background: -webkit-linear-gradient(200deg, #8421e0 10%, #af1515d8 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .col-4 {
@@ -46,10 +52,11 @@ a {
 }
 
 a:hover {
-	color: #9988DE;
-	text-decoration: none;
+  text-decoration: none;
+  background: -webkit-linear-gradient(200deg, #8421e0 10%, #af1515d8 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 h3 {
   font-family: 'Quicksand', sans-serif;
@@ -65,7 +72,7 @@ p {
 
   font-family: 'Raleway', sans-serif;
   color: #E7E7E7;
-  font-size: 15px;
+  font-size: 25px;
   font-kerning: 40;
  
 }
